@@ -1,0 +1,48 @@
+## Ignore les fichiers de build
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# MAUI build outputs
+*.apk
+*.aab
+*.app
+*.ipa
+
+# Mac-specific
+.DS_Store
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Android SDK & NDK folders (local to dev machine)
+.local/
+
+# DotNet artifacts
+project.lock.json
+project.fragment.lock.json
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuspec
+
+# Logs
+*.log
+
+# Others
+Thumbs.db
